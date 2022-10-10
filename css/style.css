@@ -12,7 +12,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    min-height: 50px;
+    
 }
 
 nav{
@@ -106,9 +106,14 @@ section{
     .col-md-1-2{
         width: 50%;
     }
-    
-    
+
+    .row-md{
+        display: flex; 
+    }
 }
+    
+    
+
 
 /* desktop lg */
 @media screen and (min-width:768px) {
@@ -138,8 +143,7 @@ section{
     }
 
     .row-lg{
-        display: flex;
-        
+        display: flex; 
     }
 }
 
