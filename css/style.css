@@ -1,8 +1,8 @@
 :root{
-    --color-primary:red;
-    --color-primary:rgb(244, 88, 88);
-    --color-secondary:blue;
-    --color-third:rgb(10, 203, 84);
+    --color-primary:#0084FD;
+    --color-primary-light:#B5DDFF;
+    --color-secondary:#9792E4;
+    --color-third:#333333;
 
 }
 
@@ -18,7 +18,8 @@ nav{
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: var(--color-primary);
+    background-color:var(--color-primary);
+    
 }
 
 section{
@@ -28,29 +29,57 @@ section{
 .container{
     width: 100%;
     margin: auto;
-    background-color: var(--color-primary);
+    
 }
 
 .row{
     display: flex;
-    background-color: var(--color-secondary);
+    
 }
 
 .card{
     width: 100%;
-    background-color: var(--color-third);
+    
 }
 
+.nav-button{
+    display: none;
+    list-style: none;
+    
+}
+.nav-button a{
+    text-decoration: none;
+}
+
+#Hamburger-button{
+    font-size: 2rem;
+}
+
+/* ----------UTILITIES-------- */
 .img-reboot{
     width: 100%;
     display: block;
 }
 
 
+
+.space-between{
+    justify-content: space-between;
+}
+
+
+
+
 /* --------MEDIA QUERY----------- */
 
 /* tablet md*/
 @media screen and (min-width:480px) {
+    .container{
+        width: 460px;
+    }
+    nav .container{
+        width: 100%;
+    }
     .col-md-2-3{
         width: calc(100% / 3 * 2);
     }
@@ -62,10 +91,17 @@ section{
         width: 50%;
     }
     
+    
 }
 
 /* desktop lg */
 @media screen and (min-width:768px) {
+    .container{
+        width: 748px;
+    }
+    nav .container{
+        width: 748px;
+    }
     .col-lg-1-2{
         width: 50%;
     }
@@ -77,6 +113,12 @@ section{
     }
     .col-lg-3-4{
         width: 75%;
+    }
+    .nav-button{
+        display: flex;
+    }
+    #Hamburger-button{
+        display: none;
     }
 }
 
