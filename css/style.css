@@ -15,11 +15,24 @@
     
 }
 
+/* inserisco un id per aggiungere position relative e abbassare l'img sopra il padding */
+#img-jumbo{
+    position: relative;
+    bottom: -1rem;
+    
+
+}
+
+body{
+    font-family: serif;
+}
+
 nav{
     position: fixed;
     top: 0;
     width: 100%;
     background-color:var(--color-primary);
+    z-index: 15;
     
 }
 
@@ -63,16 +76,40 @@ section{
 .btn{
     background-color: white;
     border: unset;
-    padding: .3rem;
+    padding: .3rem 2rem;
     border-radius: 20px;
+}
+.btn-small{
+    padding: .3rem;
+}
+
+.btn-blu{
+    background-color: var(--color-primary);
+    color: var(--forth-color);
+}
+
+.sub-title-card{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    font-family: system-ui;
+    
 }
 
 /* ----------UTILITIES-------- */
 .img-reboot{
     width: 100%;
     display: block;
+    
 }
 
+.txt-center{
+    text-align: center;
+}
+
+.ft-size-50{
+    font-size: 50px;
+
+}
 
 
 .space-between{
@@ -88,6 +125,18 @@ section{
 }
 .pd-1-2{
     padding: .5rem;
+}
+
+.pd-1{
+    padding: 1rem;
+}
+
+.pd-b-1{
+    padding-bottom: 1rem;
+}
+
+.pd-r-1-3{
+    padding-right: .3rem;
 }
 
 
@@ -106,6 +155,14 @@ section{
 
 .ai-center{
     align-items: center;
+}
+
+.txt-primary{
+    color: var(--color-primary);
+}
+
+.txt-white{
+    color: white;
 }
 
 
