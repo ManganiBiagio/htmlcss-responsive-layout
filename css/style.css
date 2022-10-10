@@ -3,6 +3,7 @@
     --color-primary-light:#B5DDFF;
     --color-secondary:#9792E4;
     --color-third:#333333;
+    --forth-color:white;
 
 }
 
@@ -71,8 +72,16 @@ section{
 .bg-primary-light{
     background-color: var(--color-primary-light);
 }
+
+.bg-secondary{
+    background-color: var(--color-secondary);
+}
 .pd-1-2{
     padding: .5rem;
+}
+
+.bg-white{
+    background-color: var(--forth-color);
 }
 
 
