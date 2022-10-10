@@ -34,6 +34,7 @@ section{
 
 .row{
     display: flex;
+    flex-wrap: wrap;
     
 }
 
@@ -67,6 +68,12 @@ section{
     justify-content: space-between;
 }
 
+.bg-primary-light{
+    background-color: var(--color-primary-light);
+}
+.pd-1-2{
+    padding: .5rem;
+}
 
 
 
@@ -119,6 +126,11 @@ section{
     }
     #Hamburger-button{
         display: none;
+    }
+
+    .row-lg{
+        display: flex;
+        
     }
 }
 
