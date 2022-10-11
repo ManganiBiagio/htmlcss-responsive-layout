@@ -72,6 +72,11 @@ section{
 #Hamburger-button{
     font-size: 2rem;
 }
+#quote-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
 .btn{
     background-color: white;
@@ -106,6 +111,10 @@ section{
     width: 2rem;
     aspect-ratio: 1 / 1;
 }
+.relative{
+    position: relative;
+}
+
 
 
 /* ----------UTILITIES-------- */
@@ -118,6 +127,9 @@ section{
     aspect-ratio: 1 / 1;
     border-radius: 50%;
     object-fit: cover;
+}
+.wt-100{
+    width: 100%;
 }
 
 .txt-center{
@@ -242,6 +254,10 @@ section{
 
 .scale-0-9{
     scale: .9;
+}
+
+.dp-in-bl{
+    display:inline-block;
 }
 
 
