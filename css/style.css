@@ -88,6 +88,11 @@ section{
     color: var(--forth-color);
 }
 
+.btn-viola{
+    background-color: var(--color-secondary);
+    color: var(--forth-color);
+}
+
 .sub-title-card{
     font-size: 1.4rem;
     font-weight: bolder;
